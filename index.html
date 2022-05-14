@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listesi</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            height: 100vh;
+            background: #f5f4fa;
+        }
+        
+        .container {
+            width: 80%;
+            margin: 50px auto 20px auto;
+            padding: 30px;
+            background: #fff;
+            overflow: hidden;
+        }
+        
+        .container h1 {
+            text-align: center;
+            margin: 20px 0 30px 0;
+        }
+        
+        .container table {
+            width: 100%;
+            overflow-y: auto;
+            border-collapse: collapse;
+        }
+        
+        table tr {
+            width: 100%;
+            overflow-y: auto;
+        }
+        
+        table tr th,
+        td {
+            padding: 10px 12px;
+            border: 1px solid #333;
+        }
+        
+        table tr th {
+            font-size: 15px;
+	
+
+        }
+        
+        table tr th:nth-child(odd) {
+            background: #197;
+            color: #fff;
+        }
+        
+        tbody tr td:nth-child(even) {
+            color: orangered;
+            font-weight: 500;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Reyhanlı Ekip Maaş Listesi</h1>
+        <table>
+            <tr>
+                <th>PERSONEL ADI</th>
+                <th>MAAŞ TARİHİ</th>
+                <th>AVANS 1</th>
+                <th>TARİH 1</th>
+                <th>AVANS 2</th>
+                <th>TARİH 2</th>
+                <th>AVANS 3</th>
+                <th>TARİH 3</th>
+                <th>TOPLAM AVANS</th>
+                <th>TOPLAM MAAŞ</th>
+                <th>KALAN MAAŞ</th>
+            </tr>
+            <!-- add new data to belowe -->
+            <tr>
+                <td>AHMET KASTAL</td>
+                <td>09.05.2022</td>
+                <td>3200 TL </td>
+                <td>09.05.2022</td>
+                <td>1625 TL </td>
+                <td>5/11/2022</td>
+                <td></td>
+                <td></td>
+                <td>4.825 TL </td>
+                <td>1.5000 TL </td>
+                <td>1.0175 TL </td>
+            </tr>
+            <tr>
+                <td>AMİR</td>
+                <td>05.06.2022</td>
+                <td>550 TL</td>
+                <td>28.04.2022</td>
+                <td>500 TL</td>
+                <td>09.05.2022</td>
+                <td></td>
+                <td></td>
+                <td>1.050 TL</td>
+                <td>2.000 TL</td>
+                <td>950,00 TL</td>
+            </tr>
+            <tr>
+                <td>ALİ DEDE</td>
+                <td>05.6.2022</td>
+                <td></td>
+                <td></td>
+                <td> </td>
+                <td></td>
+                <td> </td>
+                <td></td>
+                <td></td>
+                <td>4.000 TL</td>
+                <td>4.000 TL</td>
+            </tr>
+            <tr>
+                <td>SABAH BABA </td>
+                <td>05.06.2022</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>2.000 TL</td>
+                <td>2.000 TL</td>
+            </tr>
+            <tr>
+                <td>MAYA ABLA </td>
+                <td>09.05.2022</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>2.000 TL </td>
+                <td>2.000 TL </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </table>
+    </div>
+</body>
+
+</html>
